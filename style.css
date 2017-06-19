@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, body, p {
+    font-family: "Courier", Courier, Serif;
+    color: white;
+    opacity: 1;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+body {
+    margin: 2em;
+    padding: 2em;
+    background-image: url("images/wa_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#content {
+    padding: 4em;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* Reference from https://www.w3schools.com/css/css_overflow.asp */
+div {
+    width: 50%;
+    height: 50%;
+    overflow: scroll;
+}
+
+img.left {
+    position: absolute;
+    left: 18%;
+    width: 15%;
+    height: auto;
+    min-width: 15em;
+}
+
+p.right {
+    position: absolute;
+    left: 54%;
+    width: 20%;
+}
+table {
+    width: 100%;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: grey;
+}
+
+#footer {
+    clear: both;
+}
