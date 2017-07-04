@@ -21,6 +21,12 @@ body {
     /*background-repeat: no-repeat;*/
     background-size: 100% auto;
 }
+table {
+  width: 100%;
+}
+tr, th {
+  text-align: center;
+}
 
 #content {
     padding: 4em;
