@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<title>Facial Recognition Home Security Research - Home</title>
+<head>
+    <link rel = "stylesheet" type="text/css" href="geo_style.css">
+</head>
+
+<body>
+    <h2>Facial Recognition Home Security Research</h2>
+    <center>
+    <h5>Erin Doan and Addy Moran</h5>
+    <br><br>
+    <ul>
+        <li> <h6> <a href = "../../index.html">Home</a> </h6>
+        <li> <h6> <a href = "facial_rec.html">Project Home</a></h6>
+        <li> <h6> <a href = "https://github.com/addymmoran/FacialRecognition370">GitHub</a></h6>
+ 	    <li> <h6> <a href = "references.html">References</a></h6>
+    </ul><br><br>
+    </center>
+    <p>
+        <!-- Add slideshow of screenshots above-->
+        <center><b><h4>About the Project</h4></b></center>
+        <center><b>Motivation</b></center>
+        <h5>
+        > Goal: Build a home security system that uses facial recognition to detect an intruder. <br><br>
+        </h5>
+        <br><center><b>How it Works</b></center>
+        <h5>
+        > Hardware: Raspberry Pi, Keyboard, Camera<br>
+        > Language: Python<br>
+        > Packages: <a href="https://github.com/opencv/opencv">OpenCV</a>, <a href="https://github.com/opencv/opencv_contrib">OpenCV-Contrib</a>, numpy, python-picamera, <a href="https://www.twilio.com/docs/libraries/python">Twilio</a>, memory_profiler<br>
+        > How it Works: If a roommate is detected (with or without someone else) don't ask for a password. If someone is detected and it is not a roommate, ask for a password, if the password is incorrect notify a roommate by sending an email with pictures as attachemnts and a text message. If the password is correct don't notify roommate.<br>
+        > Demo:<br> 
+        <center><video width="640" height=auto controls>
+        <source src="Facial Recognition Security System Demo.mp4">
+        </video></center>
+        </h5>
+        <br><center><b>Analysis</b></center>
+        <br><b>> Memory Analysis</b>:<br>
+        >> <a href="intruder_mem_analysis">Intruder Found</a> <br>
+        >> <a href="nobody_mem_analysis">Nobody Found</a><br>
+        <br><b>> Time Analysis</b>: <br>
+        >> <a href="nobody_time_analysis">Nobody Found</a><br>
+        <br><b>> Security</b>: <br><br>
+        Assumptions: <br>
+          Using minimum number of characters (6 required)<br>
+          Using QWERTY keyboard (101, 104, or 107 possible characters)<br>
+          Using Efficiency Constant = 0.99
+          Using encryption constant 45898 (from a John the Ripper benchmarks)<br>
+        <br>>> Number of combinations: 1.615202*10^12 - 1.5007304*10^12<br>
+        <br>>> Brute Force Times:<br>
+        >>> Algorithm:<br>
+        Effective Cores: 1/((1-Efficiency Constant)+(Efficiency Constant/Processor Cores))<br>
+        GFLOPS: Processor Frequency * Effective Cores<br>
+        Keys per second: GFLOPS/Encryption Constant<br>
+        Seconds = Combos/Keys per second<br>
+        <br>>>> Average Computer (3 ghz, quad core)<br>
+        Effective Cores: 3.883495<br>
+        GFLOPS: 13980582524.3<br>
+        Keys per second: 304601.12694<br>
+        Time (for 101 possible characters): 3484951.65026 seconds, 968.04213 hours, 40.335 days<br>
+        Time (for 107 possible characters): 4926870.80667 seconds, 82114.5134445 minutes, 1368.57522408 hours, 57.024 days<br>
+        <br>>>> <a href="https://www.sciencedaily.com/releases/2016/06/160617215802.htm">1,000 Core Computer</a><br>
+        Effective Cores: 90.9918<br>
+        GFLOPS: 1.6196542*10^14<br>
+        Keys per second: 3528812216.48<br>
+        Time (for 101 possible characters): 300.815 seconds<br>
+        Time (for 107 possible characters): 425.2792 seconds<br>
+        <br><center><b>Improvements </b></center>
+        <b>> Expansion</b><br>
+        >> Use database to store test data<br>
+        >> Create setup script to setup household<br>
+        >> To avoid a brute force attack monitor speed of password entry (if speed not humanly possible, exit)
+    </p>
+    <br><br>
+</body>
+</html>
