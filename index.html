@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<!--<head><link rel="stylesheet" href="/main.css"></head>-->
-<head><link rel = "stylesheet" type="text/css" href="style.css">
-</head>
-<title>Home</title>
-  <body>
+<html lang="en">
+  <head>
+      <title>HOME</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
 
-    <div id="content">
-    <h2>Welcome to Addy Moran's Website</h2><br>
+
+  <body>
+    <div class="jumbotron text-center">
+
+    <h2>Welcome to Addy Moran's Website</h2>
+
 
     <!-- Navigation Bar -->
-    <table>
-      <tr>
-        <th><a href="index.html">HOME</a></th>
-        <th><a href="aboutme.html">ABOUT</a></th>
-        <th><a href="project.html">PROJECTS</a></th>
-      </tr>
-    </table> <hr>
-    <br><br>
-
-    <!-- Page Content -->
-    <img class="left" src="images/wicys.jpg" width="250px" height="auto">
-    <p class="right">
-    "Always code as if the guy
-      who ends up maintaining your
-      code will be a violent
-      psychopath who knows where
-      you live."<br>
-                 - Martin Golding
-</p>
+    <div class="row">
+      <div class="col"><a href="index.html">HOME</a></div>
+      <div class="col"><a href="aboutme.html">ABOUT</a></div>
+      <div class="col"><a href="project.html">PROJECTS</a></div>
+      <div class="col"><a href="resume.html">RESUME</a></div>
     </div>
-</body>
+    <hr>
+
+    <br><br>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="images/wicys.jpg" width="250px" height="auto">
+          <hr>
+          <h4>Contact Information</h4>
+          <a href="mailto:addymmoran@gmail.com" target="_top">addymmoran@gmail.com</a>
+        </div>
+        <div class="col">
+          <br><br><br>
+          "Always code as if the guy
+          who ends up maintaining your
+          code will be a violent
+          psychopath who knows where
+          you live."<br>
+          - Martin Golding
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
 </html>
