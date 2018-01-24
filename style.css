@@ -4,6 +4,7 @@ body {
     background-image: url("images/wa_background1.jpg");
     /*background-repeat: no-repeat;*/
     background-size: 100% auto;
+    min-width: 450px;
 }
 a {
     color: black;
