@@ -2,7 +2,7 @@
 Addy Moran <addymmoran@gmail.com>
 :toc: left
 
-image::images/wicys.jpg[WiCyS 2017, 200, 200, role="right"]
+image::images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 
 == Education
 * Master's in Computer Science,  Arizona State University, May 2021
