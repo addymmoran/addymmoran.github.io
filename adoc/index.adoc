@@ -91,7 +91,7 @@ image::images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 * Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
 * Presented a link:publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
 * Participated on the White Team at the Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC), March 2017
-* Presented on link:publications/IoT.pdf[the Security of Internet of Things (IoT) poster] at Rocky Mountain Celebration of Women in Computing, September 2016
+* Presented on link:publications/SmartHomeSecurity.pdf[the Security of Internet of Things (IoT) poster] at Rocky Mountain Celebration of Women in Computing, September 2016
 
 == Personal Projects
 * link:projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition]

@@ -1,0 +1,96 @@
+Filename: FacialDetection.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     4   94.082 MiB    0.000 MiB   @profile
+     5                             def detect(img1):
+     6  108.504 MiB   14.422 MiB       img = cv2.imread(img1)
+     7                                 # xml file from https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt.xml
+     8  120.422 MiB   11.918 MiB       cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
+     9  396.484 MiB  276.062 MiB       rects = cascade.detectMultiScale(img)
+    10  396.484 MiB    0.000 MiB       if len(rects) == 0:
+    11  396.484 MiB    0.000 MiB           return None
+    12                                 rects[:, 2:] += rects[:, :2]
+    13                                 photos = []
+    14                                 for x1, y1, x2, y2 in rects:
+    15                                     photos.append(img[y1:y2,x1:x2])
+    16                                 return photos
+
+
+Filename: AllowedUsers.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    18   92.625 MiB    0.000 MiB       @profile
+    19                                 def setRecognizers(self):
+    20   92.625 MiB    0.000 MiB           recognizers = []
+    21   92.656 MiB    0.031 MiB           recognizers.append(cv2.face.createLBPHFaceRecognizer())
+    22   94.078 MiB    1.422 MiB           for rec in recognizers:
+    23   94.078 MiB    0.000 MiB               rec.train(self.images, self.labels)
+    24   94.078 MiB    0.000 MiB           self.recognizers = recognizers
+
+
+Filename: main.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    22   94.082 MiB    0.000 MiB   @profile
+    23                             def run(house):
+    24                                 # Take picture
+    25   94.082 MiB    0.000 MiB       print "Taking picture: "
+    26   94.082 MiB    0.000 MiB       os.system("raspistill -o tm.jpg")
+    27                                 # If face detected send cropped picture and roommate to FacialMatch method
+    28   95.012 MiB    0.930 MiB       photos = detect("tm.jpg")
+    29   95.012 MiB    0.000 MiB       robber_photos = photos
+    30   95.012 MiB    0.000 MiB       if photos != None:
+    31                                     for photo in photos:
+    32                                         cv2.imwrite("cropped.jpg", photo)
+    33                                         # If face is not the roommate, read input from keypad
+    34                                         count = len(house.roommates)
+    35                                         for roommate in house.roommates:
+    36                                             match = matchFace(roommate,"cropped.jpg")
+    37                                             if match == True:
+    38                                                 robber_photos.remove(photo)
+    39                                                 print "Roommate Detected: " + str(roommate.name)
+    40                                                 return
+    41                                         if len(robber_photos) == len(photos): #none of roommates go to keypad
+    42                                             print "ROBBER: Getting password"
+    43                                             # If keypad combination is not correct notify roommate
+    44                              	        c = Credentials(house.roommates)
+    45                                             if c.getInput() == False:
+    46                                                 for i in range(len(robber_photos)):
+    47                             	                cv2.imwrite('robber'+str(i)+'.jpg', robber_photos[i])
+    48                                           	    notify(house, robber_photos)   # try once connected to internet
+    49                                                 print "Notified roommate"
+    50                                                 os.system("rm robber*.jpg")
+    51                                 else:
+    52   95.012 MiB    0.000 MiB           print "Nobody in the picture"
+
+
+Filename: main.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    80   43.844 MiB    0.000 MiB   @profile
+    81                             def train(h):
+    82                                 #set roommate images and labels
+    83                                 #train the recognizers with the roommate images
+    84   94.082 MiB   50.238 MiB      for roommate in h.roommates:
+    85   43.844 MiB  -50.238 MiB           trainingSet = []
+    86   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test1.jpg")
+    87   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test2.jpg")
+    88   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test3.jpg")
+    89   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test4.jpg")
+    90   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test5.jpg")
+    91   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test6.jpg")
+    92   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test7.jpg")
+    93   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test8.jpg")
+    94   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test9.jpg")
+    95   43.844 MiB    0.000 MiB           trainingSet.append("TrainSet1/test10.jpg")
+    96   43.844 MiB    0.000 MiB           trainingImages = []
+    97   43.844 MiB    0.000 MiB           labels = []
+    98   92.625 MiB   48.781 MiB           for path in trainingSet:
+    99   92.621 MiB   -0.004 MiB               trainingImages.append(cv2.imread(path, cv2.IMREAD_GRAYSCALE))
+   100   92.625 MiB    0.004 MiB               labels.append(0)
+   101   92.625 MiB    0.000 MiB           roommate.setImages(trainingImages,labels)
+   102   94.078 MiB    1.453 MiB           roommate.setRecognizers()

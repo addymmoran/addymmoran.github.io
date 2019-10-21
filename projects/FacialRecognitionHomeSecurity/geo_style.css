@@ -1,0 +1,82 @@
+body {
+    font-family: "Andale Mono", AndaleMono, monospace; 
+    color: black; 
+    padding: 2em;
+    background-color: #d3d3d3;
+}
+h1, h2 , h3, h4, h6 {
+    padding: 1em;
+    font-family: "Andale Mono", AndaleMono, monospace; 
+    text-align: center;
+    font-size: 24px;
+}
+h4, h6{
+    text-align: center;
+    font-size: 20px;
+}
+p {
+    color: black;
+    font-size: 11px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 14px;
+    display:inline;
+}
+
+#page-wrap {
+	background: white;
+	min-width: 780px;
+	max-width: 1260px;
+	margin: 10px auto;
+	}
+	#page-wrap #inside {
+		margin: 10px 10px 0px 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+/*W3Schools.com*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+li a {
+    display: center;
+    color: black;
+    text-align: center;
+    padding: 3px 3px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+a:hover {
+    color: black;
+    background-color: #9cc0ed;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: black;
+}
