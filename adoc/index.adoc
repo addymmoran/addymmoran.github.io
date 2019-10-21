@@ -87,7 +87,7 @@ image::images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 * Girls Day at the Aurora Boys & Girls Club, February 2019
 
 == Activities/Presentations
-* Presented link:publications/HD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
+* Presented link:publications/HYD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
 * Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
 * Presented a link:publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
 * Participated on the White Team at the Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC), March 2017
