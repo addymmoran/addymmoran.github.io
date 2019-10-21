@@ -96,7 +96,7 @@ image::images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 == Personal Projects
 * link:projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition]
 * link:projects/geolocation/geolocationResearch.html[Geolocation]
-* link:projects/IoT/IoT.pdf[IoT]
+
 
 == Publications
 * link:publications/Stego_Poster.pdf[Steganography]
