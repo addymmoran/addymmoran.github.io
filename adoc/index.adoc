@@ -1,0 +1,104 @@
+= Addy Moran
+Addy Moran <addymmoran@gmail.com>
+:toc: left
+
+image::images/wicys.jpg[WiCyS 2017, 200, 200, role="right"]
+
+== Education
+* Master's in Computer Science,  Arizona State University, May 2021
+* Bachelor's in Science, Colorado State University, Major in Computer Science and a Minor in Mathematics, May 2018
+
+== Tool Suite
+* Security Clearance: Secret Interim
+* Programming Languages: Java, Python, C/C++, Unix, LaTex, UML, SQL
+* Databases: MySQL, SQLite, MariaDB
+* Operating Systems: Linux, Windows, OSX
+* Web Development: Wordpress, Wix, Weebly
+* Full Stack Web Development: Flask, CherryPy, Jinja, HTML/CSS, JavaScript, ReactJS
+* Automation: Chef
+* Procedures: Scrum, Agile, and Test Driven Devleopment
+* Applications
+** Text Editors: Emacs, Vim, Eclipse, GEdit, Notepad++
+** Virtualization: VirtualBox, VMWare, CypherPath, AWS
+** Networking: Wireshark, NMap
+** Version Control: GitHub, GitLab, BitBucket, ZenHub
+
+== Work Experience
+* Raytheon
+** Cyber Threat Analyst, June 2019 - Current
+*** Proactively search for cyber attacks and gaps in security measures by leading hunts, acting as a Threat Hunting  SME, and by developing training.
+
+** Software Engineer, May 2018 - June 2019
+*** Principle Investigator for an adaptive intrusion detection system for use in embedded communication protocols
+*** Prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data
+*** Participated in a cyber rotation program (was one of the engineers chosen from Raytheon’s four business units)
+*** Training
+**** Built MIL-STD-1553B and MIL-STD-1760 curriculum for an internal embedded security course.
+**** Built cyber curriculum for interns and entry level engineers
+*** Raytheon CODE Center
+**** Conducted Red Hat and Windows hardening exercises
+**** Managed automated patch management project where we used machine learning to prioritize required system and application patches
+**** Worked with internal Raytheon programs to test for cyber resiliency and provided suggestions on ways to mitigate potential attacks
+
+** Cyber Security Engineer Intern, January 2017 - May 2018
+*** Avionic Security Network Mapper
+**** Received a patent for avionic component identification algorithm
+**** Assist in program planning and documentation
+**** Design databases to assist in machine learning algorithms
+**** Implement additional features to improve user experience
+**** Researched known avionic vulnerabilities
+**** Assisted in program planning by writing and proofreading system requirements, budget documents, program proposals, and project demonstration documentation
+**** Designed a database schema and created UML diagrams to reflect the schema
+**** Created the database and wrote database wrapper classes to assist in full stack development
+**** Assisted in full stack development to provide intuitive and easy to read results from the avionic data bus device mapping
+*** GPS
+**** Aided in securing systems by writing and deploying hardening scripts
+**** Deployed system and application patching to classified and unclassified systems
+**** Helped prepare material for weekly cyber security class
+**** Wrote a Python program that looks for classified keywords in documents to help prevent data spills
+
+* Colorado State University
+** Research Assistant, September 2016 - January 2018
+*** IoT Penetration Testing:
+**** Created Raspberry Pi network monitor for device classification and security vulnerabilities
+**** Analyzed network traffic for vulnerabilities
+**** Statically and dynamically analyzing device firmware
+*** Wrote a Python script that pulls network data and puts the data into a logical structure to help during analysis.
+*** Created websites for finished research projects
+*** Wrote Python scripts to test the quality of transferred medical data
+
+** Teaching Assistant, January 2016 - January 2018
+*** Teach students concepts in Java, Python, HTML, CSS and UNIX
+*** Coordinate review sessions and create study material to break down complex information into more manageable sections
+*** Assist professors with curriculum by creating and critiquing homework and labs assignments
+
+== Patents & Awards
+* Filed provisional patent for exploiting the hacking process to secure embedded protocols, September 2019
+* Filed patent for avionic component identification algorithm, September 2019
+* Received 2nd place in the Undergraduate Poster Competition at WiCyS, March 2017
+
+== Certifications
+* https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/[Certified Ethical Hacker]
+* https://www.faa.gov/uas/commercial_operators/[Part 107 Commercial Drone Pilot]
+
+== Volunteer
+* link:https://www.tracelabs.org/getinvolved/[TraceLabs], August 2019 - Present
+* Denver Metro Science and Engineering Fair, February 2019
+* Girls Day at the Aurora Boys & Girls Club, February 2019
+
+== Activities/Presentations
+* Presented link:publications/HD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
+* Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
+* Presented a link:publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
+* Participated on the White Team at the Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC), March 2017
+* Presented on link:publications/IoT.pdf[the Security of Internet of Things (IoT) poster] at Rocky Mountain Celebration of Women in Computing, September 2016
+
+== Personal Projects
+* link:projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition]
+* link:projects/geolocation/geolocationResearch.html[Geolocation]
+* link:projects/IoT/IoT.pdf[IoT]
+
+== Publications
+* link:publications/Stego_Poster.pdf[Steganography]
+* link:publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel]
+* link:publications/SmartHomeSecurity.pdf[IoT]
