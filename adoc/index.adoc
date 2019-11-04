@@ -1,6 +1,5 @@
 = Addy Moran
 Addy Moran <addymmoran@gmail.com>
-
 :toc: left
 
 _Programming isn't about what you know; it's about what you can figure out._ ― Chris Pine
