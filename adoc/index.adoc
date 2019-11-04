@@ -16,11 +16,11 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * Databases: MySQL, SQLite, MariaDB
 * Operating Systems: Linux, Windows, OSX
 * Web Development: Wordpress, Wix, Weebly
-* Full Stack Web Development: Flask, CherryPy, Jinja, HTML/CSS, JavaScript, ReactJS
+* Full Stack Web Development: Flask, CherryPy, Jinja, HTML/CSS, JavaScript, ReactJS, Node.JS
 * Automation: Chef
 * Procedures: Scrum, Agile, and Test Driven Devleopment
 * Applications
-** Text Editors: Emacs, Vim, Eclipse, GEdit, Notepad++
+** Text Editors: Emacs, Vim, Eclipse, GEdit, Notepad++, Sublime Text
 ** Virtualization: VirtualBox, VMWare, CypherPath, AWS
 ** Networking: Wireshark, NMap
 ** Version Control: GitHub, GitLab, BitBucket, ZenHub
