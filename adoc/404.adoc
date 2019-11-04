@@ -1,6 +1,6 @@
 = Uh Oh! We can't find this page...
 
-image::https://addymmoran.github.io/images/uhoh.jpg[Uh Oh Spaghettios, 300, 300, role="center"]
+image::https://addymmoran.github.io/images/uhoh.jpeg[Uh Oh Spaghettios, 300, 300, role="center"]
 link:https://castbox.fm/channel/Uh-oh-Spaghettios-id1446571?country=us[Image Reference]
 
 === Try going back to link:https://addymmoran.github.io[Home]!
