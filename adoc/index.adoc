@@ -1,6 +1,9 @@
 = Addy Moran
 Addy Moran <addymmoran@gmail.com>
+
 :toc: left
+
+_Programming isn't about what you know; it's about what you can figure out._ ― Chris Pine
 
 image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 
@@ -103,7 +106,14 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel]
 * link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[IoT]
 
+== Portfolio
+=== Web Design
+==== Wix/Weebly
+* link:https://info5657378.wixsite.com/custerrealty[Custer County Realty]
+* link:https://www.pulcinellapizzeria.com[Pulcinella Pizzeria]
 
+==== HTML/CSS
+* link:https://backcountryperspective.co/[Backcountry Perspective Photo & Video, LLC]
 
 == link:https://addymmoran.github.io/resume.pdf[Download as PDF]
 
