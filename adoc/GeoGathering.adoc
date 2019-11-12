@@ -1,11 +1,43 @@
 = Geogathering Project
+Addy Moran <addymmoran@gmail.com>
+:toc: left
 
-== Use Cases
+== Motivation 
+* Goal: Build a tool that gathers and sends location from an Android phone to a user interface
+* Target Audience: Law Enforcement
 
-== Technology Used
+== How it Works
+* Python Implant
+** Gathers current location, current wifi connection (if applicable), surrounding wifi connections, and sent and received texts.
+** If desired, sends emails every 5 minutes with updated information
 
-== Approach
+* User Interface
+** Parses location data to retrieve coordinates
+** Converts coordinates to addresses
+** Adds places pinpoints on Google Maps
+** Parses wifi data to retrieve SSID and IP Address
+** Updates objects after every update
+
+=== Possible Distribution Methods
+* Near-Field Communication (NFC)
+* Spear Phishing
+* Steganography
 
 == Examples
+image::https://addymmoran.github.io/projects/geolocation/images/web1.png[Example Screenshot, role="center"]
 
 == Planned Improvements
+=== Python Implant
+* Sends contacts and photos to user interface
+* Conceal application icons and hide from search query
+* Automate setup and distribution
+
+=== Web Interface
+* Color code Google Maps pins based off of source of coordinate (wifi vs pic vs call)
+* Spoof IP address of Raspberry Pi server >> Add the ability to take photos, preview camera, take videos, and start microphone
+* Add options to have different update methods and update durations
+* Add authentication
+* Track arrival times, time spent at a location, and the number of visits
+
+== Publications
+link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.pdf[Poster Presented at Women in Cyber Security Conference]
