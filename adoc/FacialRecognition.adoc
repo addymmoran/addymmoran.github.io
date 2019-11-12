@@ -1,0 +1,67 @@
+= Facial Recognition Home Security Research
+Addy Moran <addymmoran@gmail.com> & Erin Doan <ekdoan@rams.colostate.edu>
+:toc: left
+
+link:https://github.com/addymmoran/FacialRecognition370[Github]
+
+
+== Motivation 
+Goal: Build a home security system that uses facial recognition to detect an intruder.
+
+== How it Works
+If a roommate is detected (with or without someone else) don't ask for a password. If someone is detected and it is not a roommate, ask for a password, if the password is incorrect notify a roommate by sending an email with pictures as attachemnts and a text message. If the password is correct don't notify roommate.
+
+=== Tools Used
+* Hardare: Raspberry Pi, Keyboard, Camera
+* Language: Python
+* Packages
+** OpenCV
+** OpenCV-Contrib
+** Numpy
+** Python-PiCamera
+** Twilio
+** Memory_Profiler
+
+=== Demo
+video::y5fHEOy4ys0[youtube]
+
+== Analysis
+== Memory Analysis
+* link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/intruder_mem_analysis.txt[Intruder Found]
+* link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/nobody_mem_analysis.txt[Nobody Found]
+
+== Time Analysis
+* link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/nobody_time_analysis.txt[Nobody Found]
+
+=== Security
+* Assumptions
+** Using minimum number of characters (6 required)
+** Using QWERTY keyboard (101, 104, or 107 possible characters)
+** Using Efficiency Constant = 0.99 Using encryption constant 45898 (from a John the Ripper benchmarks)
+
+Number of combinations: 1.615202*10^12 - 1.5007304*10^12
+
+** Brute Force Times:
+*** Algorithm: Effective Cores: 1/((1-Efficiency Constant)+(Efficiency Constant/Processor Cores))
+*** GFLOPS: Processor Frequency * Effective Cores
+*** Keys per second: GFLOPS/Encryption Constant
+*** Seconds = Combos/Keys per second
+
+*** Average Computer (3 ghz, quad core)
+**** Effective Cores: 3.883495
+**** GFLOPS: 13980582524.3
+**** Keys per second: 304601.12694
+**** Time (for 101 possible characters): 3484951.65026 seconds, 968.04213 hours, 40.335 days
+**** Time (for 107 possible characters): 4926870.80667 seconds, 82114.5134445 minutes, 1368.57522408 hours, 57.024 days
+
+*** 1,000 Core Computer
+**** Effective Cores: 90.9918
+**** GFLOPS: 1.6196542*10^14
+**** Keys per second: 3528812216.48
+**** Time (for 101 possible characters): 300.815 seconds
+**** Time (for 107 possible characters): 425.2792 seconds
+
+== Improvements
+* Use database to store test data
+* Create setup script to setup household
+* To avoid a brute force attack monitor speed of password entry (if speed not humanly possible, exit)

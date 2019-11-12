@@ -12,22 +12,15 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 
 == Tool Suite
 * Security Clearance: Secret Interim
-* Programming Languages: Java, Python, C/C++, Unix, LaTex, UML, SQL, HTML/CSS, JavaScript
-* Databases: MySQL, SQLite, MariaDB
-* Operating Systems: Linux, Windows, OSX
-* Web Development: Worpress, Wix, Weebly
+* Programming Languages: Java, Python, C/C++, Unix, LaTex, UML, SQL, HTML/CSS, JavaScript, SQL
 * Full Stack Web Development
 ** Python: Flask, CherryPy
 ** JavaScript: Node.JS, ExpressJS
 ** Front End Frameworks: Bootstrap, Materialize
-** Misc.: AsciiDoctor
-* Automation: Chef
 * Procedures: Scrum, Agile, and Test Driven Devleopment
 * Applications
-** Text Editors: Emacs, Vim, Eclipse, GEdit, Notepad++, Sublime Text
 ** Virtualization: VirtualBox, VMWare, CypherPath, AWS
-** Networking: Wireshark, NMap
-** Version Control: GitHub, GitLab, BitBucket, ZenHub
+** Version Control: Git
 
 == Work Experience
 * Raytheon
