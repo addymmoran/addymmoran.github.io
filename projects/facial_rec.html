@@ -453,11 +453,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_demo">Demo</a></li>
 </ul>
 </li>
-<li><a href="#_analysis">Analysis</a></li>
-<li><a href="#_memory_analysis">Memory Analysis</a></li>
-<li><a href="#_time_analysis">Time Analysis</a>
+<li><a href="#_analysis">Analysis</a>
 <ul class="sectlevel2">
-<li><a href="#_security">Security</a></li>
+<li><a href="#_memory_analysis">Memory Analysis</a></li>
+<li><a href="#_time_analysis">Time Analysis</a></li>
 </ul>
 </li>
 <li><a href="#_improvements">Improvements</a></li>
@@ -537,12 +536,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_analysis">Analysis</h2>
 <div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_memory_analysis">Memory Analysis</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_memory_analysis">Memory Analysis</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -554,10 +549,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_time_analysis">Time Analysis</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_time_analysis">Time Analysis</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -565,12 +558,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-<div class="sect2">
-<h3 id="_security">Security</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Assumptions</p>
+<div class="sect3">
+<h4 id="_security">Security</h4>
+<div class="sect4">
+<h5 id="_assumptions">Assumptions</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -584,30 +575,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</li>
-</ul>
-</div>
 <div class="paragraph">
 <p>Number of combinations: 1.615202*10^12 - 1.5007304*10^12</p>
 </div>
+</div>
+<div class="sect4">
+<h5 id="_brute_force_times">Brute Force Times</h5>
+<div class="paragraph">
+<p>Algorithm: Effective Cores: 1/1-Efficiency Constant)+(Efficiency Constant/Processor Cores
+GFLOPS: Processor Frequency * Effective Cores
+Keys per second: GFLOPS/Encryption Constant
+Seconds = Combos/Keys per second</p>
+</div>
 <div class="ulist">
 <ul>
-<li>
-<p>Brute Force Times:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Algorithm: Effective Cores: 1/1-Efficiency Constant)+(Efficiency Constant/Processor Cores</p>
-</li>
-<li>
-<p>GFLOPS: Processor Frequency * Effective Cores</p>
-</li>
-<li>
-<p>Keys per second: GFLOPS/Encryption Constant</p>
-</li>
-<li>
-<p>Seconds = Combos/Keys per second</p>
-</li>
 <li>
 <p>Average Computer (3 ghz, quad core)</p>
 <div class="ulist">
@@ -654,8 +635,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
-</li>
-</ul>
+</div>
 </div>
 </div>
 </div>
@@ -681,7 +661,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-11-12 10:29:20 -0700
+Last updated 2019-11-12 10:32:49 -0700
 </div>
 </div>
 </body>
