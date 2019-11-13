@@ -18,7 +18,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 ** JavaScript: Node.JS, ExpressJS
 ** Front End Frameworks: Bootstrap, Materialize
 * Procedures: Scrum, Agile, and Test Driven Devleopment
-* Virtualization Tools: VirtualBox, VMWare, CypherPath, AWS
+* Virtualization Tools: VirtualBox, VMWare, CypherPath
 * Version Control: Git
 * Team Communication Tools: Slack, Trello, Skype
 
@@ -111,5 +111,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 ==== HTML/CSS
 * link:https://backcountryperspective.co/[Backcountry Perspective Photo & Video, LLC]
 
-== link:https://addymmoran.github.io/resume.pdf[Download as PDF]
+== Download
+* link:https://addymmoran.github.io/resume.pdf[Download this page as PDF]
+* link:https://addymmoran.github.io/short_resume.pdf[Download short version as PDF]
 
