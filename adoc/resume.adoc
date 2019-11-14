@@ -92,7 +92,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * link:https://addymmoran.github.io/projects/geolocation/geolocationResearch.html[Android Information Gathering Tool] is a tool that gathers and sends location from an Android phone to a user interface.
 Presented at the Women In Cyber Security Conference in 2017. 
 * link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were
-used to consolidate and display the relevant information to the user. Project currently in progress. 
+used to consolidate and display the relevant information to the user. 
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
 
 
