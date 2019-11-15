@@ -18,7 +18,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 ** JavaScript: Node.JS, ExpressJS
 ** Front End Frameworks: Bootstrap, Materialize
 * Procedures: Scrum, Agile, and Test Driven Devleopment
-* Virtualization Tools: VirtualBox, VMWare, CypherPath
+* Virtualization Tools: VirtualBox, VMWare, CypherPath, Docker
 * Version Control: Git
 * Team Communication Tools: Slack, Trello, Skype
 
