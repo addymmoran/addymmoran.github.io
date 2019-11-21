@@ -7,7 +7,6 @@ _Programming isn't about what you know; it's about what you can figure out._ ―
 image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 
 == Education
-* Master's in Computer Science,  Arizona State University, May 2021
 * Bachelor's in Science, Colorado State University, Major in Computer Science and a Minor in Mathematics, May 2018
 
 == Tool Suite
@@ -83,6 +82,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * Girls Day at the Aurora Boys & Girls Club, February 2019
 
 == Activities/Presentations
+* Will be presenting on "Exploiting Your Digital Footprint" at the Women in Cyber Security (WiCyS) conference in March 2020
 * Presented link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
 * Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
 * Presented a link:https://addymmoran.github.io/publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
