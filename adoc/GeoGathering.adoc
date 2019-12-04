@@ -40,4 +40,4 @@ image::https://addymmoran.github.io/projects/geolocation/images/web1.png[Example
 * Track arrival times, time spent at a location, and the number of visits
 
 == Publications
-link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.pdf[Poster Presented at Women in Cyber Security Conference]
+link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.jpeg[Poster Presented at Women in Cyber Security Conference]
