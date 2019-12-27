@@ -91,22 +91,25 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * Presented on link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[the Security of Internet of Things (IoT) poster] at Rocky Mountain Celebration of Women in Computing, September 2016
 
 == Personal Projects
+
 === Completed
 * link:https://addymmoran.github.io/projects/geolocation/geolocationResearch.html[Android Information Gathering Tool] is a tool that gathers and sends location from an Android phone to a user interface.
 Presented at the Women In Cyber Security Conference in 2017. 
 * link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were used to consolidate and display the relevant information to the user. 
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
+
 === In Progress
-* link:https://addymmoran.github.io/projects/Cipher/Cipher Project.pdf[Cipher Learning Tool]
-* link:https://addymmoran.github.io/projects/GarminIntervalTraining/Garmin Watch Interval Training App.pdf[Garmin Watch Interval Training App]
-* link:https://addymmoran.github.io/projects/GarminClimbing/Garmin Watch Climbing App.pdf[Garmin Watch Climbing App]
+* link:https://addymmoran.github.io/projects/Cipher/CipherProject.pdf[Cipher Learning Tool] is a tool used to demonstrate various ciphers, explain the history of ciphers and help the users understand password security (in terms of how long it'd take go crack)
+* link:https://addymmoran.github.io/projects/GarminIntervalTraining/GarminWatchIntervalTrainingApp.pdf[Garmin Watch Interval Training App] is an app designed for the Garmin Fenix 6 Pro watch that vibrates to notify the user when to start an activity and when to take a rest. 
+* link:https://addymmoran.github.io/projects/GarminClimbing/GarminWatchClimbingApp.pdf[Garmin Watch Climbing App] is an app designed for the Garmin Fenix 6 Pro watch that records climbing statistics (for both bouldering and big wall climbing) that does not require the user to specify start/stop for each climb. 
 
 
 == Publications
-* link:https://addymmoran.github.io/publications/Stego_Poster.pdf[Steganography Poster]
 * link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel], Presented at Women in Cyber Security, 2019
 * link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.jpeg[Android Information Gathering Tool], Presented at Women in Cyber Security, 2017
 * link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[IoT Security Poster], Presented at Rocky Mountain Celebration of Women in Computing, 2016
+* link:https://addymmoran.github.io/publications/Stego_Poster.pdf[Steganography Poster]
+
 
 == Web Design Portfolio
 === Wix/Weebly
