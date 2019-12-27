@@ -25,14 +25,15 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 == Work Experience
 * Raytheon
 ** Cyber Threat Analyst, June 2019 - Current
-*** Proactively search for cyber attacks and gaps in security measures by leading hunts, acting as a Threat Hunting SME, and by developing training.
+*** Proactively search for cyber attacks and gaps in security measures by leading hunts, acting as a Threat Hunting SME, and by developing training
+*** Built training material for new threat hunters
 
 ** Software Engineer, May 2018 - June 2019
-*** Principle Investigator for an adaptive intrusion detection system for use in embedded communication protocols
-*** Prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data
+*** Lead an 8 month, 175K, research project, building a digital forensics tool for use in embedded communication protocols. I focused on building documentation, presenting to leadership, tasking a team of four and designing and implementing the user interface (Flask and Node.JS). This solution recieved a provisional patent. 
+*** Designed and prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data
 *** Participated in a cyber rotation program (was one of the engineers chosen from Raytheon’s four business units)
 *** Training
-**** Built MIL-STD-1553B and MIL-STD-1760 curriculum for an internal embedded security course.
+**** Built and taught MIL-STD-1553B and MIL-STD-1760 curriculum for an internal embedded security course.
 **** Built cyber curriculum for interns and entry level engineers
 *** Raytheon CODE Center
 **** Conducted Red Hat and Windows hardening exercises
@@ -41,8 +42,8 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 
 ** Cyber Security Engineer Intern, January 2017 - May 2018
 *** Avionic Security Network Mapper
-**** Designed and implemented databases (used SQLite)
-**** Used Python's Flask to create intuitive user interface
+**** Designed and implemented databases (SQLite)
+**** Created an intuitive user interface (Flask)
 **** Researched known avionic vulnerabilities
 **** Assisted in program planning by writing and proofreading system requirements, budget documents, program proposals, and project demonstration documentation
 **** Received a patent for our solution
@@ -90,11 +91,15 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * Presented on link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[the Security of Internet of Things (IoT) poster] at Rocky Mountain Celebration of Women in Computing, September 2016
 
 == Personal Projects
+=== Completed
 * link:https://addymmoran.github.io/projects/geolocation/geolocationResearch.html[Android Information Gathering Tool] is a tool that gathers and sends location from an Android phone to a user interface.
 Presented at the Women In Cyber Security Conference in 2017. 
-* link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were
-used to consolidate and display the relevant information to the user. 
+* link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were used to consolidate and display the relevant information to the user. 
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
+=== In Progress
+* link:https://addymmoran.github.io/projects/Cipher/Cipher Project.pdf[Cipher Learning Tool]
+* link:https://addymmoran.github.io/projects/GarminIntervalTraining/Garmin Watch Interval Training App.pdf[Garmin Watch Interval Training App]
+* link:https://addymmoran.github.io/projects/GarminClimbing/Garmin Watch Climbing App.pdf[Garmin Watch Climbing App]
 
 
 == Publications
