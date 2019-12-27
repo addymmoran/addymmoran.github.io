@@ -29,7 +29,7 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 *** Built training material for new threat hunters
 
 ** Software Engineer, May 2018 - June 2019
-*** Lead an 8 month, 175K, research project, building a digital forensics tool for use in embedded communication protocols. I focused on building documentation, presenting to leadership, tasking a team of four and designing and implementing the user interface (Flask and Node.JS). This solution recieved a provisional patent. 
+*** Lead an 8 month, 175K, research project, building a digital forensics tool for use in embedded communication protocols. I focused on building documentation, presenting to leadership, tasking a team of four and designing and implementing the user interface (Flask and Node.JS). This solution received a provisional patent. 
 *** Designed and prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data
 *** Participated in a cyber rotation program (was one of the engineers chosen from Raytheon’s four business units)
 *** Training
