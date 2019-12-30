@@ -97,11 +97,12 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 Presented at the Women In Cyber Security Conference in 2017. 
 * link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were used to consolidate and display the relevant information to the user. 
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
+* link:https://addymmoran.github.io/projects/GarminClimbing/GarminClimbing.html[Garmin Watch Climbing App] is an app designed for the Garmin Fenix 6 Pro watch that records climbing statistics (for both bouldering and big wall climbing) that does not require the user to specify start/stop for each climb. 
 
 === In Progress
 * link:https://addymmoran.github.io/projects/Cipher/CipherProject.pdf[Cipher Learning Tool] is a tool used to demonstrate various ciphers, explain the history of ciphers and help the users understand password security (in terms of how long it'd take go crack)
 * link:https://addymmoran.github.io/projects/GarminIntervalTraining/GarminWatchIntervalTrainingApp.pdf[Garmin Watch Interval Training App] is an app designed for the Garmin Fenix 6 Pro watch that vibrates to notify the user when to start an activity and when to take a rest. 
-* link:https://addymmoran.github.io/projects/GarminClimbing/GarminWatchClimbingApp.pdf[Garmin Watch Climbing App] is an app designed for the Garmin Fenix 6 Pro watch that records climbing statistics (for both bouldering and big wall climbing) that does not require the user to specify start/stop for each climb. 
+
 
 
 == Publications

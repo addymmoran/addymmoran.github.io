@@ -1,0 +1,30 @@
+= Garmin Watch Climbing App
+Addy Moran <addymmoran@gmail.com>
+:toc: left
+
+== Motivation 
+* Goal: Build a Garmin watch app that tracks heart rate, current height above ground (in feet) and cumulative feet climbed. 
+* Target Audience: Climbers who own a Garmin Smart Watch
+
+== How it Works
+* Use the https://developer.garmin.com/connect-iq/programmers-guide/[Garmin Connect IQ SDK (Monkey C)] to write logic and watch app UI
+
+
+== Documentation
+* Written Documentation
+** https://addymmoran.github.io/projects/GarminClimbing/Planning.pdf[Planning Documents]
+** https://addymmoran.github.io/projects/GarminClimbing/MonkeyCNotes.pdf[Learning Monkey C]
+** https://addymmoran.github.io/projects/GarminClimbing/Updates.pdf[Updates to Plan/Lessons Learned]
+
+
+* Code is available for viewing on https://bitbucket.org/addymmoran/garmin_climbingapp/src/master/[BitBucket]
+
+
+* Screenshots
+
+image::https://addymmoran.github.io/projects/GarminClimbing/Screenshots/Home.png[Starting Page Screenshot, role="center"]
+image::https://addymmoran.github.io/projects/GarminClimbing/Screenshots/Running.png[Running Page Screenshot, role="center"]
+
+
+== Current State
+* I've submitted the watch app to Garmin Connect IQ and am waiting on their review. If accepted, the watch app will be available for download using the Garmin Connect IQ app. 
