@@ -6,62 +6,70 @@ _Programming isn't about what you know; it's about what you can figure out._ ―
 
 image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role="right"]
 
-== Education
-* Bachelor's in Science, Colorado State University, Major in Computer Science and a Minor in Mathematics, May 2018
+== Summary
+Software Engineer with more than 4 years of experience in research and development, focusing on cyber security and data analytics. Well-rounded engineer, seasoned in everything from program management to technical implementation.  
 
 == Tool Suite
 * Security Clearance: Secret Interim
-* Programming Languages: Java, Python, C/C++, Unix, LaTex, UML, SQL, HTML/CSS, JavaScript, SQL
+* Programming Languages: Java, Python, C/C++, UNIX/Linux, LaTex, Unified Modeleling Language (UML), SQL, HTML/CSS, JavaScript, SQL
+* Operating Systems: Linux (Ubuntu, RHEL/CentOS, Kali), Mac OS, Windows
+* Integrated Development Environments (IDEs): Eclipse, IntelliJ IDEA
+* Text Editors: Vim, Emacs (obviously the best choice ;) ), Sublime Text
+* SQL: MySQL, SQLite, MariaDB
 * Full Stack Web Development
 ** Python: Flask, CherryPy
 ** JavaScript: Node.JS, ExpressJS
 ** Front End Frameworks: Bootstrap, Materialize
-* Procedures: Scrum, Agile, and Test Driven Devleopment
+* Procedures: Scrum, Agile, Object-Oriented Design (OOD) and Test Driven Devleopment
 * Virtualization Tools: VirtualBox, VMWare, CypherPath
 * DevOps: Docker
-* Version Control: Git
-* Team Communication Tools: Slack, Trello, Skype
+* Version Control: Git (Github, Gitlab, BitBucket)
+* Team Communication Tools: Slack, Trello, Skype, ZenHub
+* Soft Skills: Time Management, Problem Solving, Technical Writing, Self-Management, Remote Experience, Leadership, Communication, Adaptability, Program Management, Mentor, Solution Oriented
+
+== Proudest Accomplishments
+* Have two patents (one full patent, one provisional patent)
+* Have lead three software projects where I presented to senior leadership and customers, managed the budget and tasked more senior engineers
+* Have presented at the Women in Cyber Security Conference (WiCyS) three times (as of March 2020)
+
+== Education & Certifications
+* Bachelor's in Science, Colorado State University, May 2018
+*** Major in Computer Science
+** Relevant Coursework: Software Engineering, Database Systems, Object-Oriented Problem Solving, Software Development with C++, Algorithms, Operating Systems, Computer Networks and the Internet, Systems Security
+*** Minor in Mathematics
+** Relevant Coursework: Mathematics of Information Security, Calculus I/II/III, Linear Algebra I/II, Introduction to Statistical Methods
+* https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/[Certified Ethical Hacker]
+* https://www.faa.gov/uas/commercial_operators/[Part 107 Commercial Drone Pilot]
 
 == Work Experience
 * Raytheon
-** Cyber Threat Analyst, June 2019 - Current
+** Cyber Threat Analyst, June 2019 - Current (100% remote)
 *** Proactively search for cyber attacks and gaps in security measures by leading hunts, acting as a Threat Hunting SME, and by developing training
-*** Built training material for new threat hunters
+*** Designed and am currently prototyping a tool that monitors a company's digital footprint
+*** Support the stand up of the Threat Hunting Services team by assisting in the development of the Concept of Operations (CONOPs), process documentation and training material
 
-** Software Engineer, May 2018 - June 2019
-*** Lead an 8 month, 175K, research project, building a digital forensics tool for use in embedded communication protocols. I focused on building documentation, presenting to leadership, tasking a team of four and designing and implementing the user interface (Flask and Node.JS). This solution received a provisional patent. 
-*** Designed and prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data
-*** Participated in a cyber rotation program (was one of the engineers chosen from Raytheon’s four business units)
+** Software Engineer, May 2018 - December 2019 (50% remote)
+*** Lead an 8 month, $175K, research project, building a digital forensics tool for use in embedded communication protocols. My work focused on building documentation, presenting to leadership, tasking a team of four and designing and implementing the user interface (Flask and Node.JS). This solution received a provisional patent and will be integrated into two additional projects at Raytheon.
+*** Designed and prototyped a satellite data reduction algorithm that finds interesting patterns within TLE data.
+*** Participated in a cyber rotation program (was one of the engineers chosen from Raytheon’s four business units).
 *** Training
 **** Built and taught MIL-STD-1553B and MIL-STD-1760 curriculum for an internal embedded security course.
 **** Built cyber curriculum for interns and entry level engineers
 *** Raytheon CODE Center
 **** Conducted Red Hat and Windows hardening exercises
-**** Managed automated patch management project where we used machine learning to prioritize required system and application patches
+**** Managed an automated patch management project where we used machine learning to prioritize required system and application patches
 **** Worked with internal Raytheon programs to test for cyber resiliency and provided suggestions on ways to mitigate potential attacks
 
-** Cyber Security Engineer Intern, January 2017 - May 2018
-*** Avionic Security Network Mapper
-**** Designed and implemented databases (SQLite)
-**** Created an intuitive user interface (Flask)
-**** Researched known avionic vulnerabilities
-**** Assisted in program planning by writing and proofreading system requirements, budget documents, program proposals, and project demonstration documentation
-**** Received a patent for our solution
-*** GPS
-**** Aided in securing systems by writing and deploying hardening scripts (using Chef)
-**** Deployed system and application patching to classified and unclassified systems
-**** Helped prepare material for weekly cyber security class
-**** Wrote a Python program that looks for classified keywords in documents to help prevent data spills
+** Cyber Security Engineer Intern, January 2017 - May 2018 (50% remote)
+*** Developed an avionic network mapper where I focused on full stack development (SQLite, Python 3, and Python Flask) and program planning and management. This solution has received a full patent and will assist in securing aircrafts by detecting human error, insider threats and supply chain threats. 
+*** Used Chef to automate system hardening for satellite systems to prevent common cyber vulnerabilities and meet government and program requirements. 
 
 * Colorado State University
 ** Research Assistant, September 2016 - January 2018
-*** IoT Penetration Testing
-**** Created Raspberry Pi network monitor for device classification and security vulnerabilities
-**** Analyzed network traffic for vulnerabilities
-**** Statically and dynamically analyzed device firmware
-*** Wrote a Python script that pulls network data and puts the data into a logical structure to help during analysis.
-*** Created websites for finished research projects
-*** Wrote Python scripts to test the quality of transferred medical data
+*** IoT Penetration Testing: Created Raspberry Pi network monitor for device classification and security vulnerabilities, analyzed network traffic for vulnerabilities and statically and dynamically analyzed device firmware
+*** Developed a Python script that pulls network data and puts the data into a logical structure to help during analysis.
+*** Developed websites for finished graduate research projects
+*** Developed Python scripts to test the quality of transferred medical data
 
 ** Teaching Assistant, January 2016 - January 2018
 *** Taught students concepts in Java, Python, HTML, CSS and UNIX
@@ -72,10 +80,6 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 * Filed provisional patent for exploiting the hacking process to secure embedded protocols, September 2019
 * Filed patent for avionic component identification algorithm, September 2019
 * Received 2nd place in the Undergraduate Poster Competition at WiCyS, March 2017
-
-== Certifications
-* https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/[Certified Ethical Hacker]
-* https://www.faa.gov/uas/commercial_operators/[Part 107 Commercial Drone Pilot]
 
 == Volunteer
 * link:https://www.tracelabs.org/getinvolved/[TraceLabs], August 2019 - Present
@@ -97,20 +101,18 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 Presented at the Women In Cyber Security Conference in 2017. 
 * link:https://bitbucket.org/addymmoran/carmd/src/master/[CarMD] is a web interface that helps people understand OBD-II error codes. Node.JS, ExpressJS, SQLite, and Python were used to consolidate and display the relevant information to the user. 
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
-* link:https://addymmoran.github.io/projects/GarminClimbing/GarminClimbing.html[Garmin Watch Climbing App] is an app designed for the Garmin Fenix 6 Pro watch that records climbing statistics (for both bouldering and big wall climbing) that does not require the user to specify start/stop for each climb. 
 
 === In Progress
-* link:https://addymmoran.github.io/projects/Cipher/CipherProject.pdf[Cipher Learning Tool] is a tool used to demonstrate various ciphers, explain the history of ciphers and help the users understand password security (in terms of how long it'd take go crack)
+* Home Development Environment which will consist of a private git server (include CI/CD DevOps pipeline), docker repository, web server (LAMP Stack), TorBox and PiHole.
+* link:https://addymmoran.github.io/projects/GarminClimbing/GarminClimbing.html[Garmin Watch Climbing App] is an app designed for the Garmin Fenix 6 Pro watch that records climbing statistics (for both bouldering and big wall climbing) that does not require the user to specify start/stop for each climb. 
+* link:https://addymmoran.github.io/projects/Cipher/CipherProject.pdf[Cipher Learning Tool] is a tool used to demonstrate various ciphers, explain the history of ciphers and help the users understand password security (in terms of how long it'd take go crack). Planned implementation Python 3, Jupyter Notebook and Django. 
 * link:https://addymmoran.github.io/projects/GarminIntervalTraining/GarminWatchIntervalTrainingApp.pdf[Garmin Watch Interval Training App] is an app designed for the Garmin Fenix 6 Pro watch that vibrates to notify the user when to start an activity and when to take a rest. 
-
-
 
 == Publications
 * link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel], Presented at Women in Cyber Security, 2019
 * link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.jpeg[Android Information Gathering Tool], Presented at Women in Cyber Security, 2017
 * link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[IoT Security Poster], Presented at Rocky Mountain Celebration of Women in Computing, 2016
 * link:https://addymmoran.github.io/publications/Stego_Poster.pdf[Steganography Poster]
-
 
 == Web Design Portfolio
 === Wix/Weebly
