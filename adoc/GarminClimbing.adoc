@@ -26,5 +26,7 @@ image::https://addymmoran.github.io/projects/GarminClimbing/Screenshots/Home.png
 image::https://addymmoran.github.io/projects/GarminClimbing/Screenshots/Running.png[Running Page Screenshot, role="center"]
 
 
-== Current State
-* I've submitted the watch app to Garmin Connect IQ and am waiting on their review. If accepted, the watch app will be available for download using the Garmin Connect IQ app. 
+== Current State/Status
+* Once I got the app installed on my watch the altitude information was very inaccurate. After further research, it looks like most Garmin watches use GPS based elevation or barometric data (neither are very accurate for less than 15 ft change). This app may work for Big Wall climbing (anything above 15 ft off of the ground) but will not have accurate results for anything less. Due to the restrictions described, I will not be pursuing this project further but the code is still available in BitBucket for reference. 
+
+link:https://forums.garmin.com/developer/connect-iq/f/q-a/211058/how-do-i-get-accurate-elevation-change-information[Garming Forum Discussion on Elevation Change Inaccuracies]
