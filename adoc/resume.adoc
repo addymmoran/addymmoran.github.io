@@ -33,6 +33,7 @@ Software Engineer with more than 4 years of experience in research and developme
 * Have presented at the Women in Cyber Security Conference (WiCyS) three times (as of March 2020)
 
 == Education & Certifications
+* Master's in Computer Science, Arizona State University, May 2022
 * Bachelor's in Science, Colorado State University, May 2018
 *** Major in Computer Science
 ** Relevant Coursework: Software Engineering, Database Systems, Object-Oriented Problem Solving, Software Development with C++, Algorithms, Operating Systems, Computer Networks and the Internet, Systems Security
@@ -43,7 +44,9 @@ Software Engineer with more than 4 years of experience in research and developme
 
 == Work Experience
 * Raytheon
-** Cyber Threat Analyst, June 2019 - Current (100% remote)
+** Cyber Analyst, June 2019 - Current (100% remote)
+*** Complete manual offensive tests to verify vulnerabilities and the severity
+*** Support the stand up of a new effort by developing Concept of Operations (CONOPs), our 2020 approach, and by presenting new effort to senior leadership
 *** Proactively search for cyber attacks and gaps in security measures by leading hunts, acting as a Threat Hunting SME, and by developing training
 *** Designed and am currently prototyping a tool that monitors a company's digital footprint
 *** Support the stand up of the Threat Hunting Services team by assisting in the development of the Concept of Operations (CONOPs), process documentation and training material
@@ -88,6 +91,7 @@ Software Engineer with more than 4 years of experience in research and developme
 
 == Activities/Presentations
 * Will be presenting on "Exploiting Your Digital Footprint" at the Women in Cyber Security (WiCyS) conference in March 2020
+* Will be presenting at Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC) on the Gold Team, March 2020
 * Presented link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
 * Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
 * Presented a link:https://addymmoran.github.io/publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
