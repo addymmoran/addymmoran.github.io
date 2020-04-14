@@ -10,12 +10,13 @@ image::https://addymmoran.github.io/images/wicys.jpg[WiCyS 2017, 150, 150, role=
 Software Engineer with more than 4 years of experience in research and development, focusing on cyber security and data analytics. Well-rounded engineer, seasoned in everything from program management to technical implementation.  
 
 == Tool Suite
-* Security Clearance: Secret Interim
-* Programming Languages: Java, Python, C/C++, UNIX/Linux, LaTex, Unified Modeleling Language (UML), SQL, HTML/CSS, JavaScript, SQL
+* Security Clearance: Secret
+* Programming Languages: Java, Python, C/C++, UNIX/Linux, LaTex, Unified Modeleling Language (UML), SQL, HTML/CSS, JavaScript, SQL/NoSQL
 * Operating Systems: Linux (Ubuntu, RHEL/CentOS, Kali), Mac OS, Windows
 * Integrated Development Environments (IDEs): Eclipse, IntelliJ IDEA
 * Text Editors: Vim, Emacs (obviously the best choice ;) ), Sublime Text
 * SQL: MySQL, SQLite, MariaDB
+* NoSQL: CouchDB
 * Full Stack Web Development
 ** Python: Flask, CherryPy
 ** JavaScript: Node.JS, ExpressJS
@@ -30,7 +31,7 @@ Software Engineer with more than 4 years of experience in research and developme
 == Proudest Accomplishments
 * Have two patents (one full patent, one provisional patent)
 * Have lead three software projects where I presented to senior leadership and customers, managed the budget and tasked more senior engineers
-* Have presented at the Women in Cyber Security Conference (WiCyS) three times (as of March 2020)
+* Have presented at the Women in Cyber Security Conference (WiCyS) three times
 
 == Education & Certifications
 * Master's in Computer Science, Arizona State University, May 2022
@@ -64,7 +65,7 @@ Software Engineer with more than 4 years of experience in research and developme
 **** Worked with internal Raytheon programs to test for cyber resiliency and provided suggestions on ways to mitigate potential attacks
 
 ** Cyber Security Engineer Intern, January 2017 - May 2018 (50% remote)
-*** Developed an avionic network mapper where I focused on full stack development (SQLite, Python 3, and Python Flask) and program planning and management. This solution has received a full patent and will assist in securing aircrafts by detecting human error, insider threats and supply chain threats. 
+*** Developed an avionic network mapper where I focused on full stack development (SQLite, Python 3, and Python Flask) and program planning and management. This solution has received a full patent and will assist in securing aircrafts by detecting human error, insider threats and supply chain threats (link:http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PG01&s1=16%2F574241&s2=moran&OS=16/574241+AND+moran&RS=16/574241+AND+moran[Patent Application #20200110679]) 
 *** Used Chef to automate system hardening for satellite systems to prevent common cyber vulnerabilities and meet government and program requirements. 
 
 * Colorado State University
@@ -81,18 +82,19 @@ Software Engineer with more than 4 years of experience in research and developme
 
 == Patents & Awards
 * Filed provisional patent for exploiting the hacking process to secure embedded protocols, September 2019
-* Filed patent for avionic component identification algorithm, September 2019
+* Filed patent for link:http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PG01&s1=16%2F574241&s2=moran&OS=16/574241+AND+moran&RS=16/574241+AND+moran[avionic component identification algorithm], September 2019
 * Received 2nd place in the Undergraduate Poster Competition at WiCyS, March 2017
 
 == Volunteer
+* Software Engineer at link:https://www.joy.org[Joy International], March 2020 - Present
 * link:https://www.tracelabs.org/getinvolved/[TraceLabs], August 2019 - Present
 * Denver Metro Science and Engineering Fair, February 2019
 * Girls Day at the Aurora Boys & Girls Club, February 2019
 
 == Activities/Presentations
-* Will be presenting on "Exploiting Your Digital Footprint" at the Women in Cyber Security (WiCyS) conference in March 2020
-* Will be presenting at Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC) on the Gold Team, March 2020
-* Presented link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Tavel] at the Women in Cyber Security Conference (WiCyS), March 2019
+* Presented "Exploiting Your Digital Footprint" at the Women in Cyber Security (WiCyS) conference in March 2020 (link:https://addymmoran.github.io/publications/ExploitingYourDigitalFootprint.pdf[slides], link:https://addymmoran.github.io/publications/ExploitingYourDigitalFootprint.mp4[video of presentation])
+* Participated at the Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC) on the Gold Team, March 2020
+* Presented link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel] at the Women in Cyber Security Conference (WiCyS), March 2019
 * Presented on automated patch management at the Ground System Architecture Workshop (GSAW), February 2019
 * Presented a link:https://addymmoran.github.io/publications/GeoInfoGatheringPoster.jpeg[poster on gathering location data from an Android device] at WiCyS, March 2017
 * Participated on the White Team at the Rocky Mountain Collegiate Cyber Defense Competition (RMCCDC), March 2017
@@ -108,23 +110,14 @@ Presented at the Women In Cyber Security Conference in 2017.
 * link:https://addymmoran.github.io/projects/FacialRecognitionHomeSecurity/facial_rec.html[Facial Recognition Home Security Tool] uses facial recognition to detect a home intruder. This project was completed as part of my operating systems class at Colorado State University. 
 
 === In Progress
-* Home Development Environment which will consist of a private git server (include CI/CD DevOps pipeline), docker repository, web server (LAMP Stack), TorBox and PiHole.
 * link:https://addymmoran.github.io/projects/Cipher/CipherProject.pdf[Cipher Learning Tool] is a tool used to demonstrate various ciphers, explain the history of ciphers and help the users understand password security (in terms of how long it'd take go crack). Planned implementation Python 3, Jupyter Notebook and Django. 
-* link:https://addymmoran.github.io/projects/GarminIntervalTraining/GarminWatchIntervalTrainingApp.pdf[Garmin Watch Interval Training App] is an app designed for the Garmin Fenix 6 Pro watch that vibrates to notify the user when to start an activity and when to take a rest. 
 
 == Publications
+* link:https://addymmoran.github.io/publications/ExploitingYourDigitalFootprint.pdf[Exploiting Your Digital Footprint], Presented at Women in Cyber Security, 2020
 * link:https://addymmoran.github.io/publications/HYD2DT.pdf[Hacking Your Day-To-Day Travel], Presented at Women in Cyber Security, 2019
 * link:https://addymmoran.github.io/projects/geolocation/GeoInfoGatheringPoster.jpeg[Android Information Gathering Tool], Presented at Women in Cyber Security, 2017
 * link:https://addymmoran.github.io/publications/SmartHomeSecurity.pdf[IoT Security Poster], Presented at Rocky Mountain Celebration of Women in Computing, 2016
 * link:https://addymmoran.github.io/publications/Stego_Poster.pdf[Steganography Poster]
-
-== Web Design Portfolio
-=== Wix/Weebly
-* link:https://info5657378.wixsite.com/custerrealty[Custer County Realty]
-* link:https://www.pulcinellapizzeria.com[Pulcinella Pizzeria]
-
-=== HTML/CSS
-* link:https://backcountryperspective.co/[Backcountry Perspective Photo & Video, LLC]
 
 == Download
 * link:https://addymmoran.github.io/resume.pdf[Download this page as PDF]
