@@ -11,7 +11,7 @@ Software Engineer with more than 4 years of experience in research and developme
 
 == Tool Suite
 * Security Clearance: Secret
-* Programming Languages: Java, Python, C/C++, UNIX/Linux, LaTex, Unified Modeleling Language (UML), SQL, HTML/CSS, JavaScript, SQL/NoSQL
+* Programming Languages: Java, Python, C/C++, UNIX/Linux, LaTex, Unified Modeleling Language (UML), HTML/CSS, JavaScript, SQL/NoSQL
 * Operating Systems: Linux (Ubuntu, RHEL/CentOS, Kali), Mac OS, Windows
 * Integrated Development Environments (IDEs): Eclipse, IntelliJ IDEA
 * Text Editors: Vim, Emacs (obviously the best choice ;) ), Sublime Text
