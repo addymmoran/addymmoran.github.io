@@ -1,0 +1,11 @@
+title: Addy Moran
+description: Cyber Security Researcher & Software Engineer
+remote_theme: just-the-docs/just-the-docs
+nav_sort: ordinal # Allows us to control the order of the menu
+# This defines the top-level links
+header_pages:
+  - index.md        # Resume
+  - cyber.md        # Cyber Projects
+  - math.md         # Math/Data Projects
+  - fire.md         # Fire Response
+  - datasets.md     # Open Data & Research

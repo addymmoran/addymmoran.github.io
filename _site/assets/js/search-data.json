@@ -1,0 +1,114 @@
+{"0": {
+    "doc": "Cyber Security",
+    "title": "Cyber Security",
+    "content": " ",
+    "url": "/cyber/cyber.html",
+    
+    "relUrl": "/cyber/cyber.html"
+  },"1": {
+    "doc": "Fire Response",
+    "title": "🚒 Fire Response &amp; Analytics",
+    "content": "Operational Intelligence for Emergency Services . 📊 Statistical Analysis of Fire Calls . | Project: Poisson Modeling of Turnout Times | Code: Python/Jupyter Notebook analysis of response latency. | . 👨‍🚒 Instruction &amp; Mentorship . | Activity: Instructor at the Community College of Aurora Fire Academy. | . Download PDF Instead . Your browser does not support PDFs. Download the PDF to view it. ",
+    "url": "/fire/fire.html#-fire-response--analytics",
+    
+    "relUrl": "/fire/fire.html#-fire-response--analytics"
+  },"2": {
+    "doc": "Fire Response",
+    "title": "Fire Response",
+    "content": " ",
+    "url": "/fire/fire.html",
+    
+    "relUrl": "/fire/fire.html"
+  },"3": {
+    "doc": "Home",
+    "title": "Addy Moran",
+    "content": "Cyber Security Researcher &amp; Software Engineer addymmoran@gmail.com | GitHub Profile . “Programming isn’t about what you know; it’s about what you can figure out.” ― Chris Pine . ",
+    "url": "/#addy-moran",
+    
+    "relUrl": "/#addy-moran"
+  },"4": {
+    "doc": "Home",
+    "title": "📋 Summary",
+    "content": "Researcher with more than 8 years of experience in R&amp;D, focusing on full-stack software engineering, cybersecurity, and data analytics. A well-rounded engineer seasoned in everything from program management to technical implementation. ",
+    "url": "/#-summary",
+    
+    "relUrl": "/#-summary"
+  },"5": {
+    "doc": "Home",
+    "title": "🛠 Tool Suite",
+    "content": ". | Programming Languages: Python, JavaScript, SQL/NoSQL, UNIX/Linux, LaTeX . | Legacy Knowledge: Java, UML, C/C++, HTML/CSS | . | Environments: Docker | Procedures: Scrum, Agile, Object-Oriented Design (OOD), Test Driven Development (TDD) | Version Control: Git (GitHub, GitLab, BitBucket) | Soft Skills: Technical Writing, Remote Leadership, Program Management, Mentorship, Solution-Oriented Problem Solving. | . ",
+    "url": "/#-tool-suite",
+    
+    "relUrl": "/#-tool-suite"
+  },"6": {
+    "doc": "Home",
+    "title": "🏆 Proudest Accomplishments",
+    "content": ". | Patents: Holder of one full patent and one provisional patent. | Speaker: Presented at several national conferences in the U.S. and one international conference in Switzerland. | . ",
+    "url": "/#-proudest-accomplishments",
+    
+    "relUrl": "/#-proudest-accomplishments"
+  },"7": {
+    "doc": "Home",
+    "title": "🎓 Education &amp; Certifications",
+    "content": ". | M.S. in Applied and Computational Mathematics | Johns Hopkins University (Ongoing, Started Aug 2025) | . | | B.S. in Computer Science (Math Minor) | Colorado State University (May 2018) | . | | Part 107 Commercial Drone Pilot | FAA Certified | . | | Fire 1 / Hazmat 1 Certification | Colorado Fire (Jan 2024) | . | . ",
+    "url": "/#-education--certifications",
+    
+    "relUrl": "/#-education--certifications"
+  },"8": {
+    "doc": "Home",
+    "title": "💼 Work Experience",
+    "content": "Pacific Northwest National Laboratory . Cyber Security / Software Engineer | June 2020 – Present (Remote) . | Conduct foundational research in Post-Quantum Cryptography (PQC) and its impacts across technological domains. | Develop specialized cybersecurity training curricula ranging from Cryptography to Operational Technology (OT) and Space systems. | Lead teams of OT assessors and mentor interns/research assistants under the Cyber Resiliency Foundations program. | Author white papers and technical proposals for federal submissions. | . Raytheon . Cyber Analyst | June 2019 – June 2020 (Remote) . | Performed manual offensive testing to verify vulnerability severity. | Acted as a Threat Hunting SME, designing a prototype tool to monitor corporate digital footprints. | Developed CONOPs and process documentation for the stand-up of the Threat Hunting Services team. | . Software Engineer | May 2018 – Dec 2019 . | Lead Researcher: Managed a $175K project building a digital forensics tool for embedded protocols (Flask/Node.js). Work resulted in a provisional patent. | Satellite Systems: Designed an algorithm to identify patterns within TLE (Two-Line Element) data. | CODE Center: Managed automated patch management using Machine Learning to prioritize system vulnerabilities. | . Cyber Security Engineer Intern | Jan 2017 – May 2018 . | Developed an Avionic Network Mapper (Full Stack: SQLite, Python, Flask). | Patent Achieved: Solution detects human error and supply chain threats in aircraft (Patent #20200110679). | . ",
+    "url": "/#-work-experience",
+    
+    "relUrl": "/#-work-experience"
+  },"9": {
+    "doc": "Home",
+    "title": "🎤 Presentations &amp; Publications",
+    "content": ". | Aviation-ISAC (Zurich, 2025): “The Impacts of Post-Quantum Computing on Satellite Communications.” | | WiCyS (2020): “Exploiting Your Digital Footprint” (Slides | Video) | . | WiCyS (2019): Hacking Your Day-To-Day Travel | GSAW (2019): Automated Patch Management for Ground Systems. | WiCyS (2017): Gathering Location Data from Android Devices | . ",
+    "url": "/#-presentations--publications",
+    
+    "relUrl": "/#-presentations--publications"
+  },"10": {
+    "doc": "Home",
+    "title": "🤝 Volunteer &amp; Activities",
+    "content": ". | Reserve Firefighter: Elizabeth Fire Department | Lead/Assistant Instructor: Community College of Aurora Fire Academy. | RMCCDC: Participated in the Collegiate Cyber Defense Competition (Gold Team 2020, White Team 2017). | Awards: 2nd Place, Undergraduate Poster Competition at WiCyS (March 2017). | . ",
+    "url": "/#-volunteer--activities",
+    
+    "relUrl": "/#-volunteer--activities"
+  },"11": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"12": {
+    "doc": "Math & Data Science",
+    "title": "📐 Applied Mathematics &amp; Data Science",
+    "content": ". 🧬 Matrix Theory &amp; Biomarkers . | Project: Spectral Analysis of Human Health | Goal: Using Eigenvalues to predict systemic stability. | . Your browser does not support PDFs. Download the PDF to view it. ⌚ Oura Ring Statistical Studies . | Project: Sleep Architecture &amp; HRV Correlation | Dataset: Anonymized Oura Export (JSON/CSV) | . Your browser does not support PDFs. Download the PDF to view it. Your browser does not support PDFs. Download the PDF to view it. ",
+    "url": "/math/math.html#-applied-mathematics--data-science",
+    
+    "relUrl": "/math/math.html#-applied-mathematics--data-science"
+  },"13": {
+    "doc": "Math & Data Science",
+    "title": "Math & Data Science",
+    "content": " ",
+    "url": "/math/math.html",
+    
+    "relUrl": "/math/math.html"
+  },"14": {
+    "doc": "Stats Study Guide",
+    "title": "Stats Study Guide",
+    "content": " ",
+    "url": "/math/stat_studyguide.html",
+    
+    "relUrl": "/math/stat_studyguide.html"
+  },"15": {
+    "doc": "📁 Open Research Datasets",
+    "title": "📁 Open Research Datasets",
+    "content": "# 📁 Open Research Datasets *Data generated or curated during my R&D projects.* ### 📂 Fire Response Call Logs (Sanitized) * **Format:** `.csv` * **Description:** 24 months of response data including timestamps, apparatus types, and zone IDs. * [Download Dataset](https://github.com/addymmoran/fire-data/archive/refs/heads/main.zip) ### 📂 Oura Ring Longitudinal Export * **Format:** `.json` * **Description:** Daily sleep and activity metrics (anonymized) used for the recovery study. * [View Schema](oura-schema.md) ### 📂 Avionic Network Traffic (Synthetic) * **Format:** `.pcap` * **Description:** Created for testing the Avionic Network Mapper patent. ",
+    "url": "/datasets.html",
+    
+    "relUrl": "/datasets.html"
+  }
+}
