@@ -1,16 +1,23 @@
+---
+layout: default
+title: Datasets
+nav_order: 9
+has_children: true
+---
+
 # 📁 Open Research Datasets
-*Data generated or curated during my R&D projects.*
+*Data generated during my projects.*
 
-### 📂 Fire Response Call Logs (Sanitized)
+
+### 📂 Oura, Apple Watch, Garmin HRM Data 
+* **Purpose:** Understand how different HR data is between the three devices
+* **Description:** 
+* [Download Dataset]()
+* [Example Usage]()
+
+### 📂 Oura Data 
+* **Purpose:** Research correlation between sleep and exercise
 * **Format:** `.csv`
-* **Description:** 24 months of response data including timestamps, apparatus types, and zone IDs.
-* [Download Dataset](https://github.com/addymmoran/fire-data/archive/refs/heads/main.zip)
-
-### 📂 Oura Ring Longitudinal Export
-* **Format:** `.json`
-* **Description:** Daily sleep and activity metrics (anonymized) used for the recovery study.
-* [View Schema](oura-schema.md)
-
-### 📂 Avionic Network Traffic (Synthetic)
-* **Format:** `.pcap`
-* **Description:** Created for testing the Avionic Network Mapper patent.
+* **Description:** 
+* [Download Dataset](https://github.com/addymmoran/data/tree/main/oura/09-2025_11-2025)
+* [Example Usage](https://github.com/addymmoran/data/blob/main/oura/09-2025_11-2025/hrv_sleep_exercise_analysis.ipynb)

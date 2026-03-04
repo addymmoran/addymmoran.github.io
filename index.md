@@ -8,7 +8,7 @@ title: Home
 
 > _"Programming isn't about what you know; it's about what you can figure out."_ ― Chris Pine
 
-<img src="https://addymmoran.github.io/imagescca.jpeg" align="right" width="150" alt="WiCyS 2017" />
+<img src="https://addymmoran.github.io/images/cca.jpeg" align="right" width="150" alt="CCA" />
 
 ## 📋 Summary
 Researcher with more than 8 years of experience in R&D, focusing on full-stack software engineering, cybersecurity, and data analytics. A well-rounded engineer seasoned in everything from program management to technical implementation.

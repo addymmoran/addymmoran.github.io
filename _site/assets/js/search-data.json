@@ -1,21 +1,21 @@
 {"0": {
-    "doc": "Cyber Security",
-    "title": "Cyber Security",
-    "content": " ",
-    "url": "/cyber/cyber.html",
+    "doc": "Datasets",
+    "title": "📁 Open Research Datasets",
+    "content": "Data generated during my projects. 📂 Oura, Apple Watch, Garmin HRM Data . | Purpose: Understand how different HR data is between the three devices | Description: | Download Dataset | Example Usage | . 📂 Oura Data . | Purpose: Research correlation between sleep and exercise | Format: .csv | Description: | Download Dataset | Example Usage | . ",
+    "url": "/datasets.html#-open-research-datasets",
     
-    "relUrl": "/cyber/cyber.html"
+    "relUrl": "/datasets.html#-open-research-datasets"
   },"1": {
-    "doc": "Fire Response",
-    "title": "🚒 Fire Response &amp; Analytics",
-    "content": "Operational Intelligence for Emergency Services . 📊 Statistical Analysis of Fire Calls . | Project: Poisson Modeling of Turnout Times | Code: Python/Jupyter Notebook analysis of response latency. | . 👨‍🚒 Instruction &amp; Mentorship . | Activity: Instructor at the Community College of Aurora Fire Academy. | . Download PDF Instead . Your browser does not support PDFs. Download the PDF to view it. ",
-    "url": "/fire/fire.html#-fire-response--analytics",
+    "doc": "Datasets",
+    "title": "Datasets",
+    "content": " ",
+    "url": "/datasets.html",
     
-    "relUrl": "/fire/fire.html#-fire-response--analytics"
+    "relUrl": "/datasets.html"
   },"2": {
     "doc": "Fire Response",
     "title": "Fire Response",
-    "content": " ",
+    "content": "Your browser does not support PDFs. Download the PDF to view it. ",
     "url": "/fire/fire.html",
     
     "relUrl": "/fire/fire.html"
@@ -85,30 +85,30 @@
   },"12": {
     "doc": "Math & Data Science",
     "title": "📐 Applied Mathematics &amp; Data Science",
-    "content": ". 🧬 Matrix Theory &amp; Biomarkers . | Project: Spectral Analysis of Human Health | Goal: Using Eigenvalues to predict systemic stability. | . Your browser does not support PDFs. Download the PDF to view it. ⌚ Oura Ring Statistical Studies . | Project: Sleep Architecture &amp; HRV Correlation | Dataset: Anonymized Oura Export (JSON/CSV) | . Your browser does not support PDFs. Download the PDF to view it. Your browser does not support PDFs. Download the PDF to view it. ",
+    "content": ". ",
     "url": "/math/math.html#-applied-mathematics--data-science",
     
     "relUrl": "/math/math.html#-applied-mathematics--data-science"
   },"13": {
+    "doc": "Math & Data Science",
+    "title": "Analysis",
+    "content": "🧬 Matrix Theory &amp; Biomarkers . Your browser does not support PDFs. Download the PDF to view it. ⌚ Oura Ring Statistical Studies . Your browser does not support PDFs. Download the PDF to view it. ",
+    "url": "/math/math.html#analysis",
+    
+    "relUrl": "/math/math.html#analysis"
+  },"14": {
+    "doc": "Math & Data Science",
+    "title": "Study Guides",
+    "content": "Stats . ",
+    "url": "/math/math.html#study-guides",
+    
+    "relUrl": "/math/math.html#study-guides"
+  },"15": {
     "doc": "Math & Data Science",
     "title": "Math & Data Science",
     "content": " ",
     "url": "/math/math.html",
     
     "relUrl": "/math/math.html"
-  },"14": {
-    "doc": "Stats Study Guide",
-    "title": "Stats Study Guide",
-    "content": " ",
-    "url": "/math/stat_studyguide.html",
-    
-    "relUrl": "/math/stat_studyguide.html"
-  },"15": {
-    "doc": "📁 Open Research Datasets",
-    "title": "📁 Open Research Datasets",
-    "content": "# 📁 Open Research Datasets *Data generated or curated during my R&D projects.* ### 📂 Fire Response Call Logs (Sanitized) * **Format:** `.csv` * **Description:** 24 months of response data including timestamps, apparatus types, and zone IDs. * [Download Dataset](https://github.com/addymmoran/fire-data/archive/refs/heads/main.zip) ### 📂 Oura Ring Longitudinal Export * **Format:** `.json` * **Description:** Daily sleep and activity metrics (anonymized) used for the recovery study. * [View Schema](oura-schema.md) ### 📂 Avionic Network Traffic (Synthetic) * **Format:** `.pcap` * **Description:** Created for testing the Avionic Network Mapper patent. ",
-    "url": "/datasets.html",
-    
-    "relUrl": "/datasets.html"
   }
 }
